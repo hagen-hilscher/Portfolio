@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #ccdff8; */
+  background-color: #fbf7fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #4595ce, #82abd0);
+  color: #fff;
+  padding: 30px 10%;
+}
+
+nav {
+  display: block;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  cursor: pointer;
+}
+
+.hero h1{
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 0 auto 25px;
+}
+
+button{
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  background-color: #3feca4;
+  color: #fff;
+  cursor: pointer;
+}
+
+section h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1e1e1e;
+}
+
+.about p{
+  margin: auto;
+}
+
+.skill-boxes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-boxes div, .project-card{
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact{
+  background: #1e3c72;
+  color: white;
+}
+
+.contact h2 {
+  color: #fff;
+}
+
+.contact p{
+  color: #ddd;
+  margin: 10px auto;
+}
